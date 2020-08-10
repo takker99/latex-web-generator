@@ -1,0 +1,19 @@
+{
+  "name": "latex-web-generator",
+  "version": "1.0.0",
+  "description": "Generate LaTeX svg images from URL parameter ",
+  "main": "index.ts",
+  "repository": "git@github.com:takker99/latex-web-generator.git",
+  "author": "takker99 <37929109+takker99@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "@vercel/node": "^1.7.4",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
