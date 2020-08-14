@@ -17,6 +17,7 @@
     "prettier": "^2.0.5"
   },
   "dependencies": {
+    "mathjax": "^3.0.5",
     "mathjax-node": "^2.1.1"
   }
 }

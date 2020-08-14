@@ -928,6 +928,11 @@ mathjax@^2.7.2:
   resolved "https://registry.yarnpkg.com/mathjax/-/mathjax-2.7.8.tgz#c883f483c4f4abe525b7a3dea16abecf663f2a6a"
   integrity sha512-n4xZJ+cw7o01YOSVhxxjyOmibqBPCi+XTDof4siq78QWMx7Fxjzgb/mxMUEElMzTDodMV7ENIMsjREOSldOQPw==
 
+mathjax@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/mathjax/-/mathjax-3.0.5.tgz#707e703a9c1d95f0790bbd404b895566f459d514"
+  integrity sha512-9M7VulhltkD8sIebWutK/VfAD+m+6BIFqfpjDh9Pz/etoKUtjO6UMnOhUcDmNl6iApE8C9xrUmaMyNZkZAlrMw==
+
 mime-db@1.44.0:
   version "1.44.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
