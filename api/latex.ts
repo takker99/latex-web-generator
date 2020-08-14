@@ -18,7 +18,10 @@ export default (request: NowRequest, response: NowResponse): void => {
         svg:true
     }, function (data:any) {
         if (!data.errors) {
+            response.setHeader('content-type', 'image/svg+xml');
             response.status(200).send(data.svg);
+        } else {
+            response.status(200).send('failed');
         }
         // will produce:
         // <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
