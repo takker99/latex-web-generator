@@ -36,11 +36,9 @@ export default (request: NowRequest, response: NowResponse): void => {
     /* }); */
     response.setHeader('content-type', 'image/svg+xml');
     response.status(200).send(`
-<svg x="0px" y="0px" width="400px" height="60px" style="background-color:#ddd">
-  <a href="http://www.yahoo.co.jp">
-    <polygon id="logomark-polyline" fill-rule="evenodd" clip-rule="evenodd"
-      fill="#99f" points="200 10, 220 30, 200 50, 180 30"/>
-  </a>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="100" viewBox="0 0 400 100">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+    <ellipse cx="200" cy="50" rx="80" ry="40" fill="red" stroke="black" stroke-width="2"></ellipse>
+  </svg>
                               `);
 };
