@@ -37,7 +37,7 @@ export default (request: NowRequest, response: NowResponse): void => {
     response.setHeader('content-type', 'image/svg+xml');
     response.status(200).send(`
 <svg x="0px" y="0px" width="400px" height="60px" style="background-color:#ddd">
-  <a xlink:href="http://www.yahoo.co.jp">
+  <a href="http://www.yahoo.co.jp">
     <polygon id="logomark-polyline" fill-rule="evenodd" clip-rule="evenodd"
       fill="#99f" points="200 10, 220 30, 200 50, 180 30"/>
   </a>
